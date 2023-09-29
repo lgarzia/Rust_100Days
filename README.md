@@ -6,7 +6,7 @@ Goal --> Create container API service in GCP
 
 Resources 
 [1] The Rust Programming Language, 2nd Edition
-9/27/2023: 
+9/27/2023: 1 - Finished Chapter 1 and Started Chapter 2
 * rustup
 * cargo
 * regsitry: https://crates.io
@@ -31,3 +31,20 @@ Resources
 * string - f-string -> "string {var}"
 * https://www.rust-lang.org/community
 * rustc --version
+
+9/28/2023: 2 - Finished chapter 2
+* Cargo.toml
+ [dependencies] rand = "0.8.5"
+* registry from https://crates.io
+* cargo.lock
+* cargo update
+* use rand::Rng <-- Rng trait defines methods; train must be in scope to use methods
+* rand::thead_rng <-- part of trait
+* std::cmp::Ordering <-- bring into scope
+* Ordering::less <-- enum
+* match <var>.comp(&var) <-- match syntax (arms - patterns to match againsts)
+* loop <-- keyword
+* let var u32 = match guess.trim().parse() {
+    Ok(num) => num, Err(_) => continue
+}
+
