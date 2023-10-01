@@ -48,3 +48,41 @@ Resources
     Ok(num) => num, Err(_) => continue
 }
 
+9/29/2023: 3 - Chapter 3 (mid-point)
+* keywords const, mut <--- default is immutable
+* constants can be declared in any scope -
+* constant THREE_HOURS_IN_SECONDS: u32
+* let f: bool = false <-- Rust has default data types, optional to specify
+* char literals single quotes versus string literals double quotes
+* array type (fixed), vector type dynamic
+* Rust ensures only memory block is used
+* function syntax
+ `fn <func_name>() {
+    ...
+ } 
+ * function signatures
+` <func_name>(value:i32, unit_label)`
+* Rust is an expression-based language
+* Call function is an expression; macro; result of scope block
+* function - must declare return type -> 
+* Rust leverage shadow-casting concept 
+
+9/30/2023: 4 - Chapter 3 Competed
+* return keyword - optional
+* <func_name>() -> i32
+* ; statement - doesn't return value
+* // comments
+* if <cond> {} else {}
+* <cond> must be bool, rust won't determine truthiness
+* else if {}
+* book recommends `match` complex branching
+* if condition return results 
+number = if condition {5} else {6}; 
+* 3 loops --> loop, while, for
+* loop --> forever or until `break`
+* continue
+* let result = loop
+* optional specify loop label - and break to label
+* `while loop`
+* for element in a
+* 
