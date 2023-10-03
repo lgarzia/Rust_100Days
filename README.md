@@ -85,4 +85,46 @@ number = if condition {5} else {6};
 * optional specify loop label - and break to label
 * `while loop`
 * for element in a
-* 
+
+10/1/2023: 5 - Chapter 4 mid-point
+* Ownership is Rust's most unique feature
+* Rust makes memory safety guarantees without needing garbage collectors
+* Ownership is a set of rules that govern how a Rust program manages memory
+* Memory managed through a system of ownership that compiler checks
+* Stack vs Heap
+    * Stack stores vaues in the order it gets them (stack of plates)
+    * Heap less organized - request certain amount of space
+    * Heap - memory allocators finds and empty spot return pointer
+    * "allocating on the heap"
+* ownership manages life-cycle on heap
+* Each value in Rust has an owner
+* Only one owner at a time
+* Owner goes out of scope, the value is dropped
+* Rust calls drop automatically at the closing curly bracket
+* after s2 = s1 <--- s1 is invalid
+* default is shallow copy
+* `clone` allows for deep copies
+* Rust does tuple unpacking for functions
+* Use `references` using value without transfering ownership
+* let len = <func>(**&**s1)
+* Signature of & of function uses& to indicate the type of parameter
+* Act of creating reference is `borrowing`
+* References are immutable, not allowed to modify something we have reference to
+
+10/2/2023: 6 - Finished Chapter 4
+* concepts of ownership, borrowing, and slices ensure memory saftey in Rust programs at compile time
+* references are immutable - can't modify value
+* fn <func_name>(s: &str) -> &str
+* &str <-- see lower case; same function on both &String, &str
+* Slices --> return &s[0..i];
+* string slice is a reference to part of a String
+* use patterns to destructure tuple
+* slices - reference contiguous sequence of elements
+* Rust - compiler guarantees references will never be dangling references
+* scope ends after last used; 
+* multiple immutable references are allowed
+* {let r1 = &mut s;} // leaves scope
+* r2 = &mut s; // is allowed
+* Rust prevents data races at compile time
+* Only 1 mutable reference to a value allowed at a time
+* &mut var
