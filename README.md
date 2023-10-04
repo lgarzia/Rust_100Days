@@ -128,3 +128,15 @@ number = if condition {5} else {6};
 * Rust prevents data races at compile time
 * Only 1 mutable reference to a value allowed at a time
 * &mut var
+
+10/3/2023: 7 - Chapter 5
+* Structs and enums - are the building blocks
+* struct User {active: bool, username: String, email: String, sign_in_count: u64}
+* another example {active: true, username: String::from("someusername123")}
+* use . to get specific value
+* Rust does not allow only certain fields as mutable
+* ..user1 must come last to specify that any remaining fields should get their values from the corresponding fields in user1
+* `tuple structs` - structs look like tuple
+* `unit-like structs` have no fields, behave similiarly to ()
+* struct Rectangle {width: u32, height: u32}
+* fn area(rectangle: &Rectangle) -> u32 {}
