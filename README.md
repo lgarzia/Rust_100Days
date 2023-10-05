@@ -140,3 +140,33 @@ number = if condition {5} else {6};
 * `unit-like structs` have no fields, behave similiarly to ()
 * struct Rectangle {width: u32, height: u32}
 * fn area(rectangle: &Rectangle) -> u32 {}
+
+10/4/2023: 8 - Finished Chapter 5
+* default curly brackets tell println! to use formatting known 
+as Display: output intended for direct end user consumption
+* Rust doesn't try to guess print out of struct
+* `#[derive(Debug)] struct...`
+* `println!("rect1 is {:?}")`
+* another way to print out a value using debug formats is dbg!
+* width: dbg!(30*scale)
+* Methods declared with fn keywords
+* ```impl Rectangle {
+    fn area(&self) -> u32 
+    {self.width*self.height}
+}```
+* rect1.area()
+* &self <--- don't want to take ownership, just read data
+* &mut self
+* example below ... rect1.can_hold(&rect2))
+* impl Rectangle {... 
+fn can_hold(&self, other:&Rectangle) -> book{...}}
+* All functions defined within an impl block are called associated functions
+* impl Rectangle {fn ...) -> Self{Self {...}}}
+* Self keyword in the return type and in the body of the function are aliases for the type that appears after impl
+* To call associated function - let sq = Rectangle::square(3)
+* The :: syntax is used for both asssociated functions and namespaces created by module
+* Structs allowed to have multiple impl blocks
+* In impl blocks, you can define functions that are associated with your type, and methods
+are a kind of associated function that let you specify behavior that instances of your structs have
+
+
