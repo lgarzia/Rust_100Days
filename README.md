@@ -169,4 +169,22 @@ fn can_hold(&self, other:&Rectangle) -> book{...}}
 * In impl blocks, you can define functions that are associated with your type, and methods
 are a kind of associated function that let you specify behavior that instances of your structs have
 
+10/5/2023: 9 - Chapter 6 - Enums
+* Enums - define type by enumerating variants
+* Option is an enum (expresses value either something or nothing)
+* enum IpAddrKind { V4, V6 }
+* let four = IpAddrKind::V4; 
+* fn rount(ip_kind: IpAddrKind){}
+* enum IpAddr { V4(String), V6(String), }
+* IpAddr::V4() - takes string argument returns an instance of IpAddr
+* Advantage over structs; each variant can have different types and amounts of associated data
+* can use impl to define methods
+* Rust compiler - checks whether you've handled all the cases
+* Rust doesn't have a null feature
+* Rust has an enum that can encode concept of a value being present or not
+* enum Option<T> {None, Some(T), }
+* Option is part of *prelude*; don't need to bring into scope explicitly
+* enum Coin {}
+* match coin {Coin::Penny => 1, ...}
+
 
