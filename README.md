@@ -187,4 +187,20 @@ are a kind of associated function that let you specify behavior that instances o
 * enum Coin {}
 * match coin {Coin::Penny => 1, ...}
 
+10/6/2023: 10 - finished chapter 6 - Enum, started ch 7, Started O'reilly book
+* crate is the smallest amount of code that Rust compiler considers at a time
+* single file is a crate
+* paths - a way of naming an item, such as struct, function, or module
+* package - build, test, share crates
+* crates - a tree of modules that produces a library or executable
+* modules & use - control the organization, scope, and privacy of paths
+* scope - nested context
+* if let cond=cond {...} else {...}
+* Rust has pattern catch-all - _ is a special pattern that matches any value
+* pattern-matching... can take else and turn into variable --- other => move_player(other)
+* Rust compilers ensures all path are covered
+* combining match & enums very common
+* In Rust, Some() is an enum variant that is used to represent the presence of a value in an Option<T> type.
+* Option<T> is a built-in Rust type that is used to represent the possibility of a value being absent. It has two variants: Some(T) and None. Some(T) is used to wrap a value of type T when it is present, while None is used to indicate the absence of a value.
+
 
