@@ -203,4 +203,19 @@ are a kind of associated function that let you specify behavior that instances o
 * In Rust, Some() is an enum variant that is used to represent the presence of a value in an Option<T> type.
 * Option<T> is a built-in Rust type that is used to represent the possibility of a value being absent. It has two variants: Some(T) and None. Some(T) is used to wrap a value of type T when it is present, while None is used to indicate the absence of a value.
 
+10/7/2023: 11 - half-way chapter 7
+* Items in a parent module can't use the private items inside child modules
+* But child modules can use the items in their ancestor modules
+* preference specify absolute paths
+* crate's public API, marked with pub
+* pub fn eat_at_restaurant
+* support relative paths & absolute paths
+* mod front_of_house { mod hosting { fn ...}}
+* code in module is private be default
+* Modules - used to organize code
+* use keyword brings path into scope
+* Cargo follows a convention that src/ main.rs is the crate root of a binary crate
+* Library crates don't have a main function, they don't compile to an executable
+* 
+
 
