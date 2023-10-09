@@ -216,6 +216,7 @@ are a kind of associated function that let you specify behavior that instances o
 * use keyword brings path into scope
 * Cargo follows a convention that src/ main.rs is the crate root of a binary crate
 * Library crates don't have a main function, they don't compile to an executable
-* 
+
+10/8/2023: 12 - starting from top, working through code snippets
 
 

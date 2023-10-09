@@ -8,3 +8,5 @@ Cargo.lock.orig
 
 # Racer (Rust code completion)
 .racer_caches/
+hello_world/main.exe
+hello_world/main.pdb
