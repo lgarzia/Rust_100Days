@@ -218,5 +218,5 @@ are a kind of associated function that let you specify behavior that instances o
 * Library crates don't have a main function, they don't compile to an executable
 
 10/8/2023: 12 - starting from top, working through code snippets
-
+10/9/2023: 13 - con't part 2 - working through code snippets
 
