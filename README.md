@@ -220,4 +220,5 @@ are a kind of associated function that let you specify behavior that instances o
 10/8/2023: 12 - starting from top, working through code snippets
 10/9/2023: 13 - con't part 2 - working through code snippets
 10/10/2023: 14 - finished chapt 3, orielly set up website
+10/11/2023: 15 - half-way through ownership
 
