@@ -225,3 +225,4 @@ are a kind of associated function that let you specify behavior that instances o
 10/13/2023: 17 - half-way chapt 5  structs
 10/14/2023: 18 - finished 5 struct, 6 enums
 10/15/2023: 19 - half-way chapter 7 (code structure)
+10/16/2023: 20 - finished chapter 7 - code structures
