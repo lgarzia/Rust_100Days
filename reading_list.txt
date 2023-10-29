@@ -1,0 +1,4 @@
+https://willcrichton.net/notes/k-corrset/ (rust & analytics)
+https://doc.rust-lang.org/std/collections/index.html
+https://github.com/rust-lang/rustlings
+https://github.com/huggingface/candle
