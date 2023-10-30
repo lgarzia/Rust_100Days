@@ -228,3 +228,4 @@ are a kind of associated function that let you specify behavior that instances o
 10/16/2023: 20 - finished chapter 7 - code structures
 //PTO break
 10/28/2023: 21 - collections 
+10/29/2023: 22 - Rustlings & Web book
