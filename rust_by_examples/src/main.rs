@@ -1,32 +1,42 @@
-use std::fmt; // Import the `fmt` module.
-// Derive the `fmt::Debug` implementation for `Structure`. `Structure`
-// is a structure which contains a single `i32`.
-#[derive(Debug)]
-struct Structure(i32);
+// This function takes ownership of the heap allocated memory
+fn destroy_box(c: Box<i32>) {
+    println!("Destroying a box that contains {}", c);
 
-// Put a `Structure` inside of the structure `Deep`. Make it printable
-// also.
-#[derive(Debug)]
-struct Deep(Structure);
-
-impl fmt::Display for Structure {
-    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        write!(f, "Structure({})", self.0)
-    }
+    // `c` is destroyed and the memory freed
 }
 
 fn main() {
-    // Printing with `{:?}` is similar to with `{}`.
-    println!("{:?} months in a year.", 12);
-    println!("{1:?} {0:?} is the {actor:?} name.",
-             "Slater",
-             "Christian",
-             actor="actor's");
+    // _Stack_ allocated integer
+    let x = 5u32;
 
-    // `Structure` is printable!
-    println!("Now {:?} will print!", Structure(3));
+    // *Copy* `x` into `y` - no resources are moved
+    let y = x;
 
-    // The problem with `derive` is there is no control over how
-    // the results look. What if I want this to just show a `7`?
-    println!("Now {:#?} will print!", Deep(Structure(7)));
+    // Both values can be independently used
+    println!("x is {}, and y is {}", x, y);
+
+    // `a` is a pointer to a _heap_ allocated integer
+    let a = Box::new(5i32);
+
+    println!("a contains: {}", a);
+
+    // *Move* `a` into `b`
+    let b = a;
+    // The pointer address of `a` is copied (not the data) into `b`.
+    // Both are now pointers to the same heap allocated data, but
+    // `b` now owns it.
+    
+    // Error! `a` can no longer access the data, because it no longer owns the
+    // heap memory
+    //println!("a contains: {}", a);
+    // TODO ^ Try uncommenting this line
+
+    // This function takes ownership of the heap allocated memory from `b`
+    destroy_box(b);
+
+    // Since the heap memory has been freed at this point, this action would
+    // result in dereferencing freed memory, but it's forbidden by the compiler
+    // Error! Same reason as the previous Error
+    //println!("b contains: {}", b);
+    // TODO ^ Try uncommenting this line
 }
