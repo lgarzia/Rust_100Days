@@ -1,11 +1,18 @@
-https://willcrichton.net/notes/k-corrset/ (rust & analytics)
-https://github.com/rust-lang/rustlings
 
+--Course
+https://github.com/rust-lang/rustlings
 rustlings watch
 
-https://github.com/huggingface/candle
 
+-- Book
 https://doc.rust-lang.org/rust-by-example/index.html
+https://doc.rust-lang.org/stable/book/
 
+-- Standard Library
 https://doc.rust-lang.org/std/collections/index.html
 https://doc.rust-lang.org/std/fmt/
+
+-- articles & analytics
+https://willcrichton.net/notes/k-corrset/ (rust & analytics)
+https://github.com/huggingface/candle
+https://code.visualstudio.com/docs/languages/rust

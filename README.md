@@ -230,3 +230,4 @@ are a kind of associated function that let you specify behavior that instances o
 10/28/2023: 21 - collections 
 10/29/2023: 22 - Rustlings & Web book
 10/30/2023: 23 - Rustling, Web book, O'reilly
+10/31/2023: 24 - O'reilly, web Book, Rustling
