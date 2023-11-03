@@ -232,3 +232,4 @@ are a kind of associated function that let you specify behavior that instances o
 10/30/2023: 23 - Rustling, Web book, O'reilly
 10/31/2023: 24 - O'reilly, web Book, Rustling
 11/1/2023: 25 - O'reilly - nailing down fundamentals of core data types & structures
+11/2/2023: 26 - O'reilly - chapter 4 (deep understanding of ownership)
