@@ -233,3 +233,6 @@ are a kind of associated function that let you specify behavior that instances o
 10/31/2023: 24 - O'reilly, web Book, Rustling
 11/1/2023: 25 - O'reilly - nailing down fundamentals of core data types & structures
 11/2/2023: 26 - O'reilly - chapter 4 (deep understanding of ownership)
+11/3/2023: 27 - O'reilly - chapter 5 - half-way; deep dive into references & lifetime
+11/4/2023: 28 - O'reilly - finished 5 on references & lifetime
+11/5/2023: 29 - O'reilly - expression
