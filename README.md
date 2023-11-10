@@ -236,3 +236,4 @@ are a kind of associated function that let you specify behavior that instances o
 11/3/2023: 27 - O'reilly - chapter 5 - half-way; deep dive into references & lifetime
 11/4/2023: 28 - O'reilly - finished 5 on references & lifetime
 11/5/2023: 29 - O'reilly - expression
+11/09/2023: 30 - O'reilly - finished chapter on expression
