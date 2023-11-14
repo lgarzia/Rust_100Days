@@ -239,3 +239,5 @@ are a kind of associated function that let you specify behavior that instances o
 11/09/2023: 30 - O'reilly - finished chapter on expression
 11/10/2023: 31 - exceptions
 11/11/2023: 32 - crates, module and code organization
+11/12/2023: 33 - back to basic (physical books, The Rust Programming Language) - plan is to time-box 'readings' to 50 days and switch to applications. 
+Reminder to me - need a solid foundation to build from. 
