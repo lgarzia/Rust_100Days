@@ -241,3 +241,4 @@ are a kind of associated function that let you specify behavior that instances o
 11/11/2023: 32 - crates, module and code organization
 11/12/2023: 33 - back to basic (physical books, The Rust Programming Language) - plan is to time-box 'readings' to 50 days and switch to applications. 
 Reminder to me - need a solid foundation to build from. 
+11/13/2023: 34 - chapt3, part of 4... 
