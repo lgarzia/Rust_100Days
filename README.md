@@ -244,3 +244,4 @@ Reminder to me - need a solid foundation to build from.
 11/13/2023: 34 - chapt3, part of 4... 
 11/14/2023: 35 - 4,5,6, most of 7 <-- goal is to make a big push over weekend to get to learning curve
 11/15/2023: 36 - finished 7, part of 8 <-- clicking now
+11/17/2023: 37 - finished 8,9 <-- ? operator is slick
