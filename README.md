@@ -246,3 +246,4 @@ Reminder to me - need a solid foundation to build from.
 11/15/2023: 36 - finished 7, part of 8 <-- clicking now
 11/17/2023: 37 - finished 8,9 <-- ? operator is slick
 11/18/2023: 38 - finished through chapter 12 of the 'book' - lifetimes seems a bit tricky; contours starting to take shape
+11/19/2023: 39 - finished 13,14, started 15... smart pointers will take time to internalize
