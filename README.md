@@ -248,3 +248,4 @@ Reminder to me - need a solid foundation to build from.
 11/18/2023: 38 - finished through chapter 12 of the 'book' - lifetimes seems a bit tricky; contours starting to take shape
 11/19/2023: 39 - finished 13,14, started 15... smart pointers will take time to internalize
 11/20/2023: 40 - finished 15, 16, started 17 
+11/21/2023: 41 - finished 17, placing book on hold and migrating to project based tutorials
