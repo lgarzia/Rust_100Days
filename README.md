@@ -251,3 +251,6 @@ Reminder to me - need a solid foundation to build from.
 11/21/2023: 41 - finished 17, placing book on hold and migrating to project based tutorials
 11/22/2023: 42 - chapter 1 of O'reilly Command Line Tool
 11/23/2023: 43 - chapter 2, part of 3
+11/24/2023: 44 - finished 3 - picked up Programming Rust - 1
+11/25/2023: 45 - 2-4
+11/26/2023: 46 - 5-6
