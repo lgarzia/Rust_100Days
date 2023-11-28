@@ -254,3 +254,4 @@ Reminder to me - need a solid foundation to build from.
 11/24/2023: 44 - finished 3 - picked up Programming Rust - 1
 11/25/2023: 45 - 2-4
 11/26/2023: 46 - 5-6
+11/27/2023: 47 - 6&7 --> foundation is getting set, migrating back to an hour a day. 
