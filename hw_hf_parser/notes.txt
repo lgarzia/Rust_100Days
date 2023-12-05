@@ -1,0 +1,2 @@
+cd C:\Users\lgarzia\Documents\GitHub\Rust_100Days
+cargo build hw_hf_parser

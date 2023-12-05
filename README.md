@@ -255,3 +255,10 @@ Reminder to me - need a solid foundation to build from.
 11/25/2023: 45 - 2-4
 11/26/2023: 46 - 5-6
 11/27/2023: 47 - 6&7 --> foundation is getting set, migrating back to an hour a day. 
+11/28/2023: 48 - start of 8
+11/29/2023: 49 - complete 8; weekend project is a mini-project, inventory
+11/30/2023: 50 - start of 9, look at structs
+12/1/2023: 51 - starting writing out notes; goal of 100 days in fluent understanding of fundamentals that every application will have.
+12/2/2023: 52
+12/3/2023: 53
+12/4/2023: 54 ... been heads down working fundamentals

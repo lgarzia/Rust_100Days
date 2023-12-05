@@ -3,3 +3,4 @@
 * https://docs.rs/assert_cmd/latest/assert_cmd/
 * rand
 
+https://crates.io/crates/reqwest

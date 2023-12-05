@@ -9,3 +9,9 @@ cargo clean
 --
 cargo test
 cargo test dies   <-- then Cargo will run all the tests with names containing the string dies.
+
+-- 
+cargo new
+
+--
+cargo check
