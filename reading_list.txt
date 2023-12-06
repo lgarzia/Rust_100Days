@@ -11,13 +11,20 @@ rustlings watch
 -- Book
 https://doc.rust-lang.org/rust-by-example/index.html
 https://doc.rust-lang.org/stable/book/
+https://rust-unofficial.github.io/patterns/intro.html
 
 -- articles & analytics
 https://willcrichton.net/notes/k-corrset/ (rust & analytics)
 https://github.com/huggingface/candle
 https://code.visualstudio.com/docs/languages/rust
+https://github.com/ctjhoa/rust-learning
 
 -- Standard Library
+https://doc.rust-lang.org/std/index.html#modules
+https://doc.rust-lang.org/std/index.html#macros
+https://doc.rust-lang.org/std/index.html#keywords
+https://doc.rust-lang.org/std/macro.vec.html 
+
 https://doc.rust-lang.org/std/collections/index.html
 https://doc.rust-lang.org/std/fmt/
 https://doc.rust-lang.org/stable/std/env/struct.Args.html

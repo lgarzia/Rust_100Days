@@ -262,3 +262,4 @@ Reminder to me - need a solid foundation to build from.
 12/2/2023: 52
 12/3/2023: 53
 12/4/2023: 54 ... been heads down working fundamentals
+12/5/2023: 55 deep dive into vectors

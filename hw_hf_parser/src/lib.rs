@@ -9,6 +9,7 @@ mod download;
 mod collections_fun;
 
 use collections_fun::hashmap_fun as ham;
+use collections_fun::vec_fun as vx;
 
 pub mod text_extraction;
 //https://docs.rs/clap/latest/clap/index.html
@@ -33,6 +34,7 @@ pub fn run(args: Args) -> Result<(), Box<dyn Error>> {
     let _reponse = download::get_response(url);
     text_extraction::get_text_extraction();
     ham::exp_with_hashmap();
+    vx::vec_fun(); 
     Ok(())
 }
 
