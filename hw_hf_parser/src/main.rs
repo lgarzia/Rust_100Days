@@ -5,5 +5,9 @@
         eprintln!("{}", e); 
         std::process::exit(1); 
     }
-    use_llm::print_from_use_llm() 
+    use_llm::print_from_use_llm(); 
+    let mut s = String::from("hello");
+    let r1 = &s;
+    s.push('A'); // implicit borrow
+    //println!("{}-{}", s, r1);
 }

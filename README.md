@@ -264,3 +264,4 @@ Reminder to me - need a solid foundation to build from.
 12/4/2023: 54 ... been heads down working fundamentals
 12/5/2023: 55 deep dive into vectors
 12/6/2023: 56 deep dive into vectors, starting ownership
+12/7/2023: 57 deep dive into owner/scope
