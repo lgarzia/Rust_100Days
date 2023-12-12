@@ -265,3 +265,7 @@ Reminder to me - need a solid foundation to build from.
 12/5/2023: 55 deep dive into vectors
 12/6/2023: 56 deep dive into vectors, starting ownership
 12/7/2023: 57 deep dive into owner/scope
+12/8/2023: 58 deep dive into lifetimes 
+12/9/2023: 59 deep dive into lifetimes
+12/10/2023: 60 deep dive into traits & trait objects
+12/11/2023: 61 managing errors ---> ? propagates errors/options
