@@ -6,6 +6,7 @@ https://github.com/evcxr/evcxr
 --Course
 https://github.com/rust-lang/rustlings
 rustlings watch
+https://zerotomastery.io/blog/rust-practice-projects/
 
 
 -- Book
@@ -14,10 +15,16 @@ https://doc.rust-lang.org/stable/book/
 https://rust-unofficial.github.io/patterns/intro.html
 
 -- articles & analytics
+https://www.shuttle.rs/blog/2023/12/08/clap-rust
+https://noobscience.medium.com/writing-your-own-cli-in-rust-921824516c80
+https://www.freecodecamp.org/news/unit-testing-in-rust/
+https://www.freecodecamp.org/news/how-to-build-a-to-do-app-with-rust/
+https://dev.to/apollolabsbin/58-rust-resources-every-learner-should-know-in-2023-12m9
 https://willcrichton.net/notes/k-corrset/ (rust & analytics)
 https://github.com/huggingface/candle
 https://code.visualstudio.com/docs/languages/rust
 https://github.com/ctjhoa/rust-learning
+https://www.riskpeep.com/2022/07/rock-paper-scissors.html
 
 -- Standard Library
 https://doc.rust-lang.org/std/index.html#modules
@@ -34,3 +41,30 @@ https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html
 https://docs.rs/about
 https://docs.rs/clap/latest/clap/
 https://docs.rs/reqwest/0.11.22/reqwest/blocking/index.html
+
+-- Web Framework (From Bard)
+The Rust web framework landscape is exciting and diverse, with several strong contenders vying for popularity. While there's no single "best" framework, some emerge as leading choices based on their features, maturity, and community support. Here are the top contenders:
+
+Most Popular:
+
+* Actix Web: A feature-rich framework emphasizing concurrency and performance. Ideal for building complex, high-traffic applications.
+* Rocket: Renowned for its simplicity and elegant APIs, making it great for beginners and rapid prototyping.
+* Axum: A minimalist framework prioritizing clarity and conciseness. Perfect for lightweight APIs and microservices.
+
+Other Notable Frameworks:
+
+warp: A powerful but low-level framework offering flexibility and customization.
+Gotham: Built for speed and high concurrency, excelling in performance-critical situations.
+Rouille: Another minimalist option with a focus on simplicity and ease of use.
+Thruster: An efficient and fast framework with a focus on resource efficiency.
+Tide: A lightweight and beginner-friendly framework with a familiar Express-like API.
+Dropshot: Offers a macro-based approach for concise and expressive routing.
+Choosing the right framework depends on your project's needs and your experience level. Here's a quick guide:
+
+**Beginners: Rocket or Axum are excellent choices for their simplicity and clear design.**
+Performance-critical projects: Actix Web and warp offer a significant advantage in terms of concurrency and speed.
+Microservices: Axum and warp shine due to their lightweight nature and ease of deployment.
+Complex applications: Actix Web's comprehensive features and strong community make it a robust choice.
+Remember, these are just some of the popular options. You'll find many other frameworks catering to specific needs and niches. Explore, compare, and try out a few to discover the perfect fit for your project!
+
+I hope this helps you navigate the vibrant world of Rust web frameworks!

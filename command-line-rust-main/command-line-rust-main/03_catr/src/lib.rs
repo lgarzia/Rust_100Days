@@ -13,6 +13,7 @@ pub struct Config {
 }
 
 // --------------------------------------------------
+// I like this pattern (args --> configs) --> place in template
 pub fn get_args() -> MyResult<Config> {
     let matches = App::new("catr")
         .version("0.1.0")
