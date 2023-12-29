@@ -1,7 +1,10 @@
+https://datawithrust.com/chapter_1.html
+https://github.com/wiseaidev/rust-data-analysis
+
 -- Data Analysis
 https://datacrayon.com/data-analysis-with-rust-notebooks/setup-anaconda-jupyter-and-rust/
 https://github.com/evcxr/evcxr
-
+https://github.com/evcxr/evcxr/blob/main/evcxr_jupyter/README.md
 
 --Course
 https://github.com/rust-lang/rustlings
@@ -25,6 +28,7 @@ https://github.com/huggingface/candle
 https://code.visualstudio.com/docs/languages/rust
 https://github.com/ctjhoa/rust-learning
 https://www.riskpeep.com/2022/07/rock-paper-scissors.html
+https://www.riskpeep.com/2022/08/make-text-adventure-game-rust-1.html
 
 -- Standard Library
 https://doc.rust-lang.org/std/index.html#modules

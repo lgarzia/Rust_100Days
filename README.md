@@ -1,4 +1,8 @@
-# Rust_100Days
+# Rust Sandbox 
+The previous exercise was 100 days, which has provided a good launchpad to continue and develop. 
+
+
+# Rust 100 Days
  100 Hundred - Minor, Incremental, Growth
 12/17/2023: 67 - working through clap and other cli designs
 12/16/2023: 66 - deepish dive in Enums, setup Jupyter Notebook, trying to build up muscle memory
@@ -70,6 +74,6 @@ Reminder to me - need a solid foundation to build from.
 12/12/2023: 62 unit testing capabilities
 12/13/2023: 63 - unit testing
 12/14/2023: 64 - unit testing *Completed working, end 100 days on 12/31
-12/15/2023: 65 (81) - scuffling a bit, just start coding
--- ending on 12/31/2023
--- keep building up callouses afterwards
+12/15/2023: 65 (81) -just start coding
+- 12/28/2023 (94): transitioned to projects; data analytics; etc. 
+ending on 12/31/2023
